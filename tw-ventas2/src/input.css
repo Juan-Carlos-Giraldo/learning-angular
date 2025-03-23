@@ -1,0 +1,160 @@
+@import url("../node_modules/tabulator-tables/dist/css/tabulator.min.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+    los siguientes estilos hay que convertirlos a Tailwind 
+    y se pueden utilizar los estilos de flowbite
+*/
+
+.dialog {
+  background-color: #fff;
+  /* 
+      El primer caso sólo fija el color, el segundo es un atajo para especificar varias propiedades
+      background-color: rgba(0, 0, 0, 0.05); 
+      background: url("image.jpg") #00D repeat-y fixed;
+    */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  padding: 10px;
+  width: 500px;
+  max-width: 80%;
+  max-height: 80vh;
+  /* juegue con la posición requerida: */
+  position: fixed;
+  z-index: 1000;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dialog header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dialog #_close {
+  font-size: 1rem;
+  border: 1.5px solid #b6b6b6;
+  border-radius: 5px;
+  margin: 0;
+  background: rgb(230, 230, 230);
+}
+
+.dialog #_close:hover {
+  color: rgb(202, 0, 0);
+  border: 1.5px solid rgb(202, 0, 0);
+}
+
+.dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.dialog footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.dialog hr {
+  color: #ececec;
+  border: 1px solid #ececec;
+}
+
+.dialog section {
+  overflow: auto;
+  max-height: 40vh;
+}
+
+/* estilos basados en: https://codepen.io/yuhomyan/pen/OJMejWJ */
+
+.custom-btn {
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 0 15px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow:
+    inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1),
+    4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.btn-ok {
+  background: rgb(6, 14, 131);
+  background: linear-gradient(0deg, rgba(6, 14, 131, 1) 0%, rgb(14, 29, 197) 100%);
+  border: none;
+}
+
+.btn-ok:hover {
+  background: rgb(0, 3, 255);
+  background: linear-gradient(0deg, rgba(0, 3, 255, 1) 0%, rgba(2, 126, 251, 1) 100%);
+}
+
+.btn-cancel {
+  background: rgb(131, 6, 6);
+  background: linear-gradient(0deg, rgba(131, 6, 6, 1) 0%, rgb(219, 63, 63) 100%);
+  border: none;
+}
+
+.btn-cancel:hover {
+  background: rgb(192, 3, 3);
+  background: linear-gradient(0deg, rgb(173, 5, 5) 0%, rgb(233, 69, 69) 100%);
+}
+
+/* -------------------------------------- */
+
+.paragraph {
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px;
+  font-weight: normal;
+  font-size: 25px;
+  color: rgb(0, 32, 138);
+  background-color: #f2f5ff;
+}
+
+.title {
+  line-height: 0.5;
+  font-family: 'Indie Flower', cursive;
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(253, 103, 128);
+}
+
+/* -------------------------------------- */
+
+#form {
+  max-width: 700px;
+  padding: 1rem;
+}
+
+.form-field {
+  display: flex;
+  margin: 0.5rem 0 0 0;
+}
+#form label,
+input {
+  width: 70%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  justify-content: space-between;
+  font-size: 1.1rem;
+}
+
+#form label {
+  text-align: right;
+  width: 35%;
+}
+
+#form input {
+  border: 2px solid #aaa;
+  border-radius: 2px;
+}

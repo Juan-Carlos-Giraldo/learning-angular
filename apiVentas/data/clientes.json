@@ -1,0 +1,68 @@
+[
+  {
+    "identificacion": "C01",
+    "id": "C01",
+    "telefono": "8880001",
+    "nombre": "Jorge Pérez"
+  },
+  {
+    "identificacion": "C02",
+    "id": "C02",
+    "telefono": "312456987",
+    "nombre": "Lucas García"
+  },
+  {
+    "identificacion": "C03",
+    "id": "C03",
+    "telefono": "8880003",
+    "nombre": "Andrea Pérez"
+  },
+  {
+    "identificacion": "C04",
+    "id": "C04",
+    "telefono": "8880004",
+    "nombre": "David Hernández"
+  },
+  {
+    "identificacion": "C09",
+    "id": "C09",
+    "telefono": "8880005",
+    "nombre": "Ricardo Lorica"
+  },
+  {
+    "identificacion": "C11",
+    "id": "C11",
+    "telefono": "3118161234",
+    "nombre": "Carlos Cuesta Iglesias"
+  },
+  {
+    "identificacion": "C12",
+    "id": "C12",
+    "telefono": "3124585555",
+    "nombre": "Erika Fernández Loaiza"
+  },
+  {
+    "identificacion": "C13",
+    "id": "C13",
+    "telefono": "3148161459",
+    "nombre": "Carlos Andrés Gutiérrez"
+  },
+  {
+    "identificacion": "C14",
+    "id": "C14",
+    "telefono": "3148169999",
+    "nombre": "Yessica Martínez"
+  },
+  {
+    "identificacion": "C15",
+    "id": "C15",
+    "telefono": "3121119874",
+    "nombre": "Juan David Giraldo Mora"
+  },
+  {
+    "identificacion": "C16",
+    "id": "C16",
+    "telefono": "4894165",
+    "nombre": "Juan Carlos Giraldo Alzate"
+  }
+]

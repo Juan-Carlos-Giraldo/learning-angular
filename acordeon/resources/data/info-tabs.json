@@ -1,0 +1,14 @@
+[
+    {
+      "title": "What is HTML?",
+      "urlContent": "./resources/html/ficha1.html"
+    },
+    {
+      "title": "What is CSS?",
+      "urlContent": "./resources/html/ficha2.html"
+    },
+    {
+      "title": "What is JavaScript?",
+      "urlContent": "./resources/html/ficha3.html"
+    }
+  ]

@@ -1,0 +1,32 @@
+/* Uso del selector universal para aplicar la regla a todos los elementos de la página */
+* {
+  /* el ancho total del elemento será el ancho especificado en la propiedad width, más el ancho del borde. */
+  box-sizing: border-box;
+  --bg-color0: #AA5139;
+  --bg-color1: rgb(115, 200, 211);
+  --bg-color2: #AA7639;
+  --border-color: rgb(194, 194, 194);
+  --text-color: rgb(0, 14, 14);
+  font-family: "Arial", sans-serif;
+}
+
+/* active la extensión CSS Flexbox Cheatsheet para saber más sobre flexbox */
+.container {
+  width: 1000px;
+  display: flex;
+  flex-flow: wrap;
+  gap: 0px 0px;
+  font-size: 18;
+  justify-content: center;
+}
+
+/* Uso del selector . para seleccionar elementos por su clase */
+.box {
+  text-align: center;
+  padding-top: 32px;
+  font-size: 1.5rem;
+  color: var(--text-color);
+  width: 9.4%;
+  width: 100px;
+  height: 100px;
+}

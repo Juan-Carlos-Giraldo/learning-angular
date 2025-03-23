@@ -1,0 +1,77 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [139.7454007103598, 35.65854560364894]
+            },
+            "properties": {
+                "site": "Torre Tokyo",
+                "description": "La Torre de Tokio es una torre de comunicaciones ubicada en Minato, Tokio, Japón. Se encuentra cerca del Parque Shiba, y junto al Templo Zojo-ji en la ciudad de Tokio.",
+                "photo": "https://th.bing.com/th/id/R.58d10851c6992b073df6ec2427390ebe?rik=%2b19epz8QwySc6Q&pid=ImgRaw&r=0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [139.77643632092284, 35.619534624474724]
+            },
+            "properties": {
+                "site": "Museo Nacional de Ciencias Emergentes e Innovación",
+                "description": "El Museo Nacional de Ciencias Emergentes e Innovación, conocido como Miraikan, es un museo de ciencia en Odaiba, Tokio, Japón. El museo fue inaugurado el 9 de julio de 2001.",
+                "photo": "https://th.bing.com/th/id/OIP.kfH0trTbnOdnU44LtZf3pAHaFj?rs=1&pid=ImgDetMain"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [139.77543487014378, 35.629988322816]
+            },
+            "properties": {
+                "site": "Tokyo Joypolis",
+                "description": "El Tokyo Joypolis es un parque de atracciones cubierto en el distrito de Odaiba en Tokio, Japón. Administrado por SEGA, el parque cuenta con una variedad de atracciones, incluidas montañas rusas y simuladores de realidad virtual.",
+                "photo": "https://th.bing.com/th/id/R.3d84241208bd59ac4139643a86e9eebb?rik=PMVZzYzn%2fOG1qA&riu=http%3a%2f%2fwww.mitziemee.com%2fwp-content%2fuploads%2f2017%2f03%2fjoypolis-1.jpg&ehk=cS1T%2bSy1x7nvoor245iuYlwbwrVmrm5CBnHyC4wNr0g%3d&risl=&pid=ImgRaw&r=0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-75.42852401733398, 5.0858146288687]
+            },
+            "properties": {
+                "site": "Reserva Hídrica Rio Blanco",
+                "description": "La Reserva Forestal Protectora de Río Blanco y Quebrada Olivares es una de las zonas con mayor biodiversidad del mundo y conservación de los recursos naturales. Está ubicada sobre la cordillera Central Andina en el departamento de Caldas, a tres (3) km del costado nororiente del municipio de Manizales.",
+                "photo": "https://www.lasillavacia.com/media/640x480/rio_blanco.jpg"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-75.44487476348877, 5.042596583730816]
+            },
+            "properties": {
+                "site": "Recinto del Pensamiento",
+                "description": "El Recinto del Pensamiento Jaime Restrepo Mejía, cuenta con una extensión de 179 hectáreas, las cuales en su mayoría forman parte de una reserva natural protectora y productora.",
+                "photo": "https://teflincolombia.files.wordpress.com/2021/02/25col-recinto_del_pensamiento1.jpg"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-75.49448490142822, 5.056318946514867]
+            },
+            "properties": {
+                "site": "Jardín Botánico Universidad de Caldas",
+                "description": "El Jardín Botánico viene consolidando la propuesta de trabajo en las áreas de investigación y conservación, con base en experiencias anteriores y en la necesidad de profundizar el conocimiento existente, sobre el estado y el uso del recurso vegetal promisorio y silvestre en el Departamento de Caldas.",
+                "photo": "https://lh3.googleusercontent.com/p/AF1QipMwA4qihxmFsGipXb4KWyeHXcA2dezlRhbVVF8y=s1600-w1000"
+            }
+        }
+    ]
+}

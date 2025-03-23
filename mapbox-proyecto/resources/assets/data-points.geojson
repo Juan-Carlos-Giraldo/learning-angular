@@ -1,0 +1,70 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [139.7454007103598, 35.65854560364894]
+            },
+            "properties": {
+                "site": "Torre Tokyo",
+                "description": "La Torre de Tokio es una torre de comunicaciones ubicada en Minato, Tokio, Japón. Se encuentra cerca del Parque Shiba, y junto al Templo Zojo-ji en la ciudad de Tokio.",
+                "photo": "./resources/assets/images/places/torretokyo.jpeg",
+                "hashtags": ["#torre", "#comunicaciones", "#vista"]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [139.77643632092284, 35.619534624474724]
+            },
+            "properties": {
+                "site": "Museo Nacional de Ciencias Emergentes e Innovación",
+                "description": "El Museo Nacional de Ciencias Emergentes e Innovación, conocido como Miraikan, es un museo de ciencia en Odaiba, Tokio, Japón. El museo fue inaugurado el 9 de julio de 2001.",
+                "photo": "./resources/assets/images/places/museo.jpeg",
+                "hashtags": ["#museo", "#ciencia", "#innovacion"]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [139.77543487014378, 35.629988322816]
+            },
+            "properties": {
+                "site": "Tokyo Joypolis",
+                "description": "El Tokyo Joypolis es un parque de atracciones cubierto en el distrito de Odaiba en Tokio, Japón. Administrado por SEGA, el parque cuenta con una variedad de atracciones, incluidas montañas rusas y simuladores de realidad virtual.",
+                "photo": "./resources/assets/images/places/joypolis.jpeg",
+                "hashtags": ["#parque", "#atracciones", "#diversion"]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [139.7815485165185, 35.667459572114765]
+            },
+            "properties": {
+                "site": "Tsukishima Monja Street",
+                "description": "Tsukishima Monja Street es un distrito de Tokio, Japón, situado en la bahía de Tokio. Es un distrito de entretenimiento que se ha desarrollado en una isla artificial en la bahía de Tokio.",
+                "photo": "./resources/assets/images/places/monja.jpeg",
+                "hashtags": ["#comida", "#japonesa", "#calle"]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [139.78266872437567 ,35.510256617593875]
+            },
+            "properties": {
+                "site": "Playa de Kawasaki",
+                "description": "La playa de Kawasaki es una playa artificial en la ciudad de Kawasaki, Japón. La playa se encuentra en la bahía de Tokio y es una de las pocas playas artificiales en la región de Kanto.",
+                "photo": "./resources/assets/images/places/playa.jpg",
+                "hashtags": ["#playa", "#arena", "#mar"]
+            }
+        }
+    ]
+}

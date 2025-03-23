@@ -1,0 +1,26 @@
+<!-- Notas -->
+<div class="flex items-center gap-2">
+  <svg
+    width="20"
+    height="20"
+    viewBox="0 0 18 17"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M3.85449 16.5L5.20866 10.6459L0.666992 6.70835L6.66699 6.18752L9.00033 0.666687L11.3337 6.18752L17.3337 6.70835L12.792 10.6459L14.1462 16.5L9.00033 13.3959L3.85449 16.5Z"
+      fill="#EEEEEE"
+    />
+  </svg>
+  <div
+    class="flex items-center gap-1 rounded-full bg-red-400/45 py-0.5 pl-1 pr-2"
+  >
+    <p class="ml-1 rotate-90 leading-tight text-red-500">&rarr;</p>
+    <p class="text-xs leading-tight text-white">Nota</p>
+  </div>
+  <p
+    class="text-white opacity-0 delay-200 duration-700 ease-in-out group-hover:opacity-100"
+  >
+    1,300 Goals
+  </p>
+</div>

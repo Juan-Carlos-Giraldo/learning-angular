@@ -1,0 +1,162 @@
+[
+  {
+    "fecha": "2023-11-19T08:39:56.064",
+    "cliente": {
+      "identificacion": "C12",
+      "id": "C12",
+      "telefono": "3118161459",
+      "nombre": "Juliana Gómez Galindo"
+    },
+    "numero": "TP2YN"
+  },
+  {
+    "fecha": "2023-11-19T09:00:31.030",
+    "cliente": {
+      "identificacion": "C04",
+      "id": "C04",
+      "telefono": "8880004",
+      "nombre": "David Hernández"
+    },
+    "numero": "5AYQ3"
+  },
+  {
+    "fecha": "2023-11-19T09:02:40.610",
+    "cliente": {
+      "identificacion": "C13",
+      "id": "C13",
+      "telefono": "3148161459",
+      "nombre": "Carlos Andrés Gutiérrez"
+    },
+    "numero": "EQCUH"
+  },
+  {
+    "fecha": "2023-11-19T09:03:38.615",
+    "cliente": {
+      "identificacion": "C02",
+      "id": "C02",
+      "telefono": "312456987",
+      "nombre": "Lucas García"
+    },
+    "numero": "N2QGO"
+  },
+  {
+    "fecha": "2023-11-19T16:21:44.188",
+    "cliente": {
+      "identificacion": "C04",
+      "id": "C04",
+      "telefono": "8880004",
+      "nombre": "David Hernández"
+    },
+    "numero": "A1TF7"
+  },
+  {
+    "fecha": "2023-11-19T16:23:53.246",
+    "cliente": {
+      "identificacion": "C03",
+      "id": "C03",
+      "telefono": "8880003",
+      "nombre": "Andrea Pérez"
+    },
+    "numero": "80UG5"
+  },
+  {
+    "fecha": "2023-11-19T16:42:34.780",
+    "cliente": {
+      "identificacion": "C02",
+      "id": "C02",
+      "telefono": "312456987",
+      "nombre": "Lucas García"
+    },
+    "numero": "PVN1Y"
+  },
+  {
+    "fecha": "2023-11-19T17:24:52.556",
+    "cliente": {
+      "identificacion": "C02",
+      "id": "C02",
+      "telefono": "312456987",
+      "nombre": "Lucas García"
+    },
+    "numero": "ZJ6LM"
+  },
+  {
+    "fecha": "2023-11-19T17:25:06.113",
+    "cliente": {
+      "identificacion": "C02",
+      "id": "C02",
+      "telefono": "312456987",
+      "nombre": "Lucas García"
+    },
+    "numero": "A7HUT"
+  },
+  {
+    "fecha": "2023-11-19T17:25:24.757",
+    "cliente": {
+      "identificacion": "C02",
+      "id": "C02",
+      "telefono": "312456987",
+      "nombre": "Lucas García"
+    },
+    "numero": "TU1V6"
+  },
+  {
+    "fecha": "2023-11-19T17:25:24.757",
+    "cliente": {
+      "identificacion": "C02",
+      "id": "C02",
+      "telefono": "312456987",
+      "nombre": "Lucas García"
+    },
+    "numero": "TBY3Y"
+  },
+  {
+    "fecha": "2023-11-19T17:25:24.757",
+    "cliente": {
+      "identificacion": "C02",
+      "id": "C02",
+      "telefono": "312456987",
+      "nombre": "Lucas García"
+    },
+    "numero": "EE9O1"
+  },
+  {
+    "fecha": "2023-11-19T17:35:54.032",
+    "cliente": {
+      "identificacion": "C02",
+      "id": "C02",
+      "telefono": "312456987",
+      "nombre": "Lucas García"
+    },
+    "numero": "DCHNW"
+  },
+  {
+    "fecha": "2023-11-19T17:36:34.713",
+    "cliente": {
+      "identificacion": "C02",
+      "id": "C02",
+      "telefono": "312456987",
+      "nombre": "Lucas García"
+    },
+    "numero": "57ZHV"
+  },
+  {
+    "fecha": "2023-11-19T17:42:19.719",
+    "cliente": {
+      "identificacion": "C02",
+      "id": "C02",
+      "telefono": "312456987",
+      "nombre": "Lucas García"
+    },
+    "numero": "9YI3M"
+  },
+  {
+    "fecha": "2023-11-20T11:36:02.682",
+    "cliente": {
+      "identificacion": "C03",
+      "id": "C03",
+      "telefono": "8880003",
+      "nombre": "Andrea Pérez"
+    },
+    "numero": "X5JCB"
+  }
+]

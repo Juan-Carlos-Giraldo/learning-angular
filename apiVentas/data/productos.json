@@ -1,0 +1,112 @@
+[
+  {
+    "tipo": "BEBIDAS",
+    "disponibles": 900,
+    "subtotal": 2250000,
+    "valorVenta": 2500,
+    "tipoEnum": "Bebida o gaseosa",
+    "valorBase": 2500,
+    "id": "CEMOO",
+    "nombre": "Agua en botella",
+    "vence": "2023-11-26"
+  },
+  {
+    "tipo": "CEREALES",
+    "disponibles": 1149,
+    "subtotal": 8617500,
+    "valorVenta": 7500,
+    "tipoEnum": "Cereal",
+    "valorBase": 7500,
+    "id": "OOW3L",
+    "nombre": "Garbanzo por 500 gramos",
+    "vence": "2023-11-15"
+  },
+  {
+    "tipo": "BEBIDAS",
+    "disponibles": 1488,
+    "subtotal": 4464000,
+    "valorVenta": 3000,
+    "tipoEnum": "Bebida o gaseosa",
+    "valorBase": 3000,
+    "id": "WVPD4",
+    "nombre": "Gaseosa 2 litros",
+    "vence": "2023-02-28"
+  },
+  {
+    "tipo": "GOLOSINAS",
+    "disponibles": 1194,
+    "subtotal": 1432800,
+    "valorVenta": 1200,
+    "tipoEnum": "Golosina",
+    "valorBase": 1200,
+    "id": "CZHFC",
+    "nombre": "Papas fritas bolsa pequeña",
+    "vence": "2022-10-15"
+  },
+  {
+    "tipo": "LACTEOS",
+    "disponibles": 1195,
+    "subtotal": 3943500,
+    "valorVenta": 3300,
+    "tipoEnum": "Lácteo",
+    "valorBase": 3300,
+    "id": "LL715",
+    "nombre": "Yogurt en vaso x 100 ml.",
+    "vence": "2022-05-30"
+  },
+  {
+    "tipo": "LACTEOS",
+    "disponibles": 1100,
+    "subtotal": 6600000,
+    "valorVenta": 6500,
+    "tipoEnum": "Lácteo",
+    "valorBase": 6000,
+    "id": "CEMOO",
+    "nombre": "Queso de Búfala R1",
+    "vence": "2023-09-15"
+  },
+  {
+    "tipo": "GOLOSINAS",
+    "disponibles": 1000,
+    "subtotal": 1000000,
+    "valorVenta": 1250,
+    "tipoEnum": "Golosina",
+    "valorBase": 1000,
+    "id": "ICLK1",
+    "nombre": "Chocolatinas Jet Maní",
+    "vence": "2023-12-15"
+  },
+  {
+    "tipo": "GOLOSINAS",
+    "disponibles": 1000,
+    "subtotal": 1300000,
+    "valorVenta": 1300,
+    "tipoEnum": "Golosina",
+    "valorBase": 1300,
+    "id": "JFG0P",
+    "nombre": "Chocorramo",
+    "vence": "2023-12-15"
+  },
+  {
+    "tipo": "LACTEOS",
+    "disponibles": 998,
+    "subtotal": 2.994E7,
+    "valorVenta": 30000,
+    "tipoEnum": "Lácteo",
+    "valorBase": 30000,
+    "id": "TD83N",
+    "nombre": "Yogurt natural x 1 litro",
+    "vence": "2023-12-13"
+  },
+  {
+    "tipo": "GOLOSINAS",
+    "disponibles": 125,
+    "subtotal": 225000,
+    "valorVenta": 2000,
+    "tipoEnum": "Golosina",
+    "valorBase": 1800,
+    "id": "AUBK6",
+    "nombre": "Gansito",
+    "vence": "2024-05-31"
+  }
+]

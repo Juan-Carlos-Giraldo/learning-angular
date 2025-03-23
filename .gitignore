@@ -1,0 +1,13 @@
+# Ignorar node_modules en cualquier nivel
+**/node_modules/
+
+# Ignorar carpetas de compilación de Angular
+dist/
+build/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno
+.env

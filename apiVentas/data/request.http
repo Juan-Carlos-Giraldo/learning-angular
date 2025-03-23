@@ -1,0 +1,136 @@
+// Ver https://www.youtube.com/watch?v=3QLcHjNp-08 para más información
+
+### prueba StandardResponse
+GET http://localhost:7070/prueba
+
+// --------------- TIPOS DE PRODUCTOS ---------------
+
+### Listar todas las categorías de productos
+GET http://localhost:7070/productos/categorias
+
+// --------------- PRODUCTOS ---------------
+
+### Listar todos los productos
+GET http://localhost:7070/productos
+
+### Buscar un producto por el índice
+GET http://localhost:7070/productos/1
+
+### Buscar un producto por el ID
+GET http://localhost:7070/productos/OOW3L
+
+### agregar un producto
+POST http://localhost:7070/productos
+Content-Type: application/json; charset=utf-8
+
+{
+    "nombre": "yyyyyyyyyyyyyyyy",
+    "tipo": "Golosina",
+    "valorBase": 1000,
+    "valorVenta": 1300,
+    "disponibles": 10,
+    "vence": "2023-12-15"
+}
+
+### actualizar los datos de un producto (busca por ID, modificar algunos o todos)
+PATCH http://localhost:7070/productos/6AMTR
+Content-Type: application/json; charset=utf-8
+
+{
+    //"nombre": "Garbanzo por 500 gramos",
+    "tipo": "Bebidas y gaseosas",
+    //"precio": 7000,
+    //"disponibles": 15,
+    "vence": "2023-11-26"
+}
+
+### Eliminar un producto
+DELETE http://localhost:7070/productos/MMMMM
+
+// --------------- CLIENTES ---------------
+
+### Listar todos los clientes
+GET http://localhost:7070/clientes
+
+### Buscar un cliente por el índice
+GET http://localhost:7070/clientes/1111111
+
+### Buscar un cliente por identificación
+GET http://localhost:7070/clientes/C02
+
+### agregar un cliente (se admiten homónimos)
+POST http://localhost:7070/clientes
+Content-Type: application/json; charset=utf-8
+
+{
+    "identificacion": "C19",
+    "nombre": "xxxxxxxxxxxxxxxxxxxxxxx",
+    "telefono": "3148169999"
+}
+
+### actualizar los datos de un cliente (busca por identificación, modificar algunos o todos)
+PATCH http://localhost:7070/clientes/C12
+Content-Type: application/json; charset=utf-8
+
+{
+    "nombre": "Erika Fernández Loaiza",
+    "telefono": "3124585555"
+}
+
+### Eliminar un cliente
+DELETE http://localhost:7070/clientes/C199XXXX
+
+// -------------------- VENTAS --------------------
+
+### Listar todas las líneas de venta (detalles)
+GET http://localhost:7070/ventas
+
+### Buscar una venta por su número (incluye los detalles)
+GET http://localhost:7070/ventas/BSH13
+
+### Buscar una venta por su número (sin los detalles)
+GET http://localhost:7070/ventas/0
+
+### agregar ventas (con su respectivo detalle)
+POST http://localhost:7070/ventas
+Content-Type: application/json; charset=utf-8
+
+{
+    "venta": {
+      "fecha": "2023-10-28T00:00",
+      "cliente": "C03"
+    },
+    "detalle": [
+      {
+        "producto": "LL715",
+        "cantidad": 3
+      },
+      {
+        "producto": "ICLK1",
+        "cantidad": 0
+      },
+      {
+        "producto": "WVPD4",
+        "cantidad": 2
+      }
+    ]
+}
+
+### no se permite actualizar los datos de una venta
+PATCH http://localhost:7070/ventas/WVEHK
+Content-Type: application/json; charset=utf-8
+
+{}
+
+### Eliminar una venta
+DELETE http://localhost:7070/ventas/ZYDDA
+
+
+
+// --------------- LÍNEAS DE VENTAS ---------------
+
+
+
+// *** faltan otros GET
+
+

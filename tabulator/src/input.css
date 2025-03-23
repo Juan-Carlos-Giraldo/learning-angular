@@ -1,0 +1,6 @@
+/* Path: ../node_modules/tabulator-tables/dist/css/tabulator.min.css */
+@import '../node_modules/tabulator-tables/dist/css/tabulator.min.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

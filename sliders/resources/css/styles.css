@@ -1,0 +1,109 @@
+@media (max-width: 768px) {
+  figcaption p {
+    padding: 5px 10px 5px 10px;
+    font-size: 0.5em;
+  }
+  figcaption h3 {
+    font-size: 0.5em;
+  }
+}
+/* Estilo básico para el Slider*/
+#gallery {
+  position: relative;
+  width: 50%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.gallery-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  transform: translateX(0%);
+}
+
+.gallery-item {
+  margin: 0;
+  min-width: 100%;
+  box-sizing: border-box;
+  overflow-y: hidden;
+}
+
+.gallery-item img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+figcaption {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+  position: absolute;
+  top: 0%;
+  height: 100%;
+  width: 100%;
+  font-size: 1.5em;
+  color: #c7c7c7;
+  transition: 0.2s;
+}
+
+figcaption h3 {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+}
+
+figcaption p {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px 30px 10px 30px; 
+  margin: 0;
+  text-align: justify;
+}
+
+/* Navegación del Slider */
+.gallery-navigator {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nav-button {
+  transform: scale(1.5);
+  background-color: #008bba00;
+  border: none;
+  padding: 20px 20px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: 0.2s;
+}
+
+.nav-button:hover {
+  transform: scale(2);
+}
+
+/* Estilos para Flechas */
+.arrow {
+  border: solid rgb(240, 240, 240);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
