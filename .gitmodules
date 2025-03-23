@@ -1,0 +1,12 @@
+[submodule "vinculacion-propiedades"]
+	path = vinculacion-propiedades
+	url = https://github.com/Juan-Carlos-Giraldo/vinculacion-propiedades.git
+[submodule "app-angular"]
+	path = app-angular
+	url = https://github.com/Juan-Carlos-Giraldo/app-angular.git
+[submodule "componentes-terceros"]
+	path = componentes-terceros
+	url = https://github.com/Juan-Carlos-Giraldo/componentes-terceros.git
+[submodule "mi-primera-app"]
+	path = mi-primera-app
+	url = https://github.com/Juan-Carlos-Giraldo/mi-primera-app.git
